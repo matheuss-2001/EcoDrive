@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 const urlLocalHost = "http://localhost:5000/";
 

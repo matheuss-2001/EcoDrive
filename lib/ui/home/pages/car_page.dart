@@ -16,6 +16,15 @@ class _CarPageState extends State<CarPage> {
   }
 
   Widget _buildBody() {
-    return Container();
+    return Column(
+
+      children: [
+        Container(
+          height: 30,
+          width: 30,
+          color: Colors.red,
+        )
+      ],
+    );
   }
 }

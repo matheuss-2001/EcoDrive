@@ -1,5 +1,6 @@
 
 import 'package:ecodrive/ui/home/controller/home_repository.dart';
+import 'package:ecodrive/ui/home/pages/car_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,10 +19,7 @@ class HomeController extends GetxController {
 
 
   final pages = const [
-    //HomeScreen.instance,
-    //ProfilePage(),
-    //HomeScreen.instance,
-    //NotificationsPage(),
+    CarPage()
   ];
 
 
